@@ -1,0 +1,2 @@
+# sths-notices
+yes
