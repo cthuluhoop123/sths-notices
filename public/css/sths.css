@@ -1,0 +1,230 @@
+h2, h3 {
+    font-size: 3em;
+}
+
+a:link {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #FF0000;
+}
+
+p.pagebreak, div.pagebreak {
+	page-break-before: always;
+}
+
+table.border {
+	border: 1px solid #000000;
+	border-collapse: separate;
+}
+
+table.border tr {
+	border: 1px solid #000000;
+	border-collapse: separate;
+}
+
+table.border td {
+	border: 1px solid #000000;
+	border-collapse: separate;
+	font-family: Tahoma;
+}
+
+table.header {
+	border: none;
+}
+
+table.header tr {
+	border: none;
+}
+
+table.header td {
+	border: none;
+	font-family: Tahoma;
+}
+
+table.thinborder {
+	border: 1px none #000000;
+	border-collapse: collapse;
+}
+
+table.thinborder tr {
+	border: 1px solid #000000;
+}
+
+table.thinborder td {
+	border: 1px solid #000000;
+	font-family: Tahoma;
+}
+
+.error, .red {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.green {
+	color: #00A614;
+	font-weight: bold;
+}
+
+.yellow {
+	color: #FFC000;
+	font-weight: bold;
+}
+
+.heading {
+	color: #a064c8;
+	text-align: center;
+	font-family: Tahoma;
+}
+
+.subheading {
+	text-align: center;
+	text-decoration: underline;
+	font-family: Tahoma;
+}
+
+.tableheading {
+	background-color: #F0D8FF;
+	font-weight: bold;
+	font-family: Tahoma;
+}
+
+tr.tableheading td {
+	text-align: center;
+}
+
+.tableheading-files {
+	background-color: #004080;
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Tahoma;
+}
+
+.weekcell {
+	text-align: center;
+	font-size: 10pt;
+	background-color: #FFFFFF;
+	font-weight: bold;
+	width: 5%;
+	font-family: Tahoma;
+}
+
+.todaycell {
+	background-color: #F0D8FF;
+	font-size: 7.5pt;
+	width: 19%;
+	font-family: Tahoma;
+}
+
+.todaycell div {
+	display: inline;
+}
+
+.daycell {
+	background-color: #FFFFFF;
+	font-size: 7.5pt;
+	width: 19%;
+	font-family: Tahoma;
+}
+
+.daycell div {
+	display: inline;
+}
+
+.daycell div.daytitle, .todaycell div.daytitle {
+	display: block;
+	padding-bottom: 5px;
+}
+
+.daytitle {
+	font-weight: bold;
+}
+
+.studentlist {
+	font-size: 10pt;
+	border: none;
+	font-family: Tahoma;
+}
+
+div.centertext table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centertext, .centertext tr, .studentdetails {
+	text-align: center;
+	font-family: Tahoma;
+}
+
+.centertextsmall, .centertextsmall tr {
+	text-align: center;
+	font-size: 10pt;
+	font-family: Tahoma;
+}
+
+.lefttext, .lefttext tr, .lefttext textarea {
+	text-align: left;
+	font-family: Tahoma;
+}
+
+.justifytext {
+	text-align:justify;
+	font-family: Tahoma;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.lefttextsmall, .lefttextsmall tr, .lefttextsmall textarea {
+	text-align: left;
+	font-size: 10pt;
+	font-family: Tahoma;
+}
+
+.righttext {
+	text-align: right;
+	font-family: Tahoma;
+}
+
+.righttextsmall {
+	text-align: right;
+	font-size: 10pt;
+	font-family: Tahoma;
+}
+
+.color-primary {
+	background-color: #E6E6E6;
+	font-family: Tahoma;
+}
+
+.color-secondary {
+	background-color: #D2D2D2;
+	font-family: Tahoma;
+}
+
+.myfiles-dirlist td, .myfiles-dirlist a, .myfiles-dirlist img {
+	vertical-align: middle;
+}
+
+.blue {
+	color: #0000FF;
+}
+
+#tooltip {
+	position: absolute;
+	width: 150px;
+	border: 1px solid black;
+	padding: 5px;
+	background-color: lightyellow;
+	visibility: hidden;
+	z-index: 100;
+	font-size: 8pt;
+}
